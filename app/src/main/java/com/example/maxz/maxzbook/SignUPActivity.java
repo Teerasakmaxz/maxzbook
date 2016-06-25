@@ -42,12 +42,18 @@ public class SignUPActivity extends AppCompatActivity {
 
         } else {
             //ไม่มีช่องว่าง
+            uploadUserToServer();
+
 
 
         }
 
 
     }//click signUP
+
+    private void uploadUserToServer() {
+
+    }
 
 
 }//main class
